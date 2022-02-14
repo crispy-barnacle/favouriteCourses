@@ -6,6 +6,7 @@
 // @author       Me
 // @match        https://courses.cs.ut.ee/courses/index/2022/spring
 // @match        https://courses.cs.ut.ee/courses
+// @match        https://courses.cs.ut.ee
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
