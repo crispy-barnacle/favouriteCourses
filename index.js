@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Favourite courses
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       Me
 // @match        https://courses.cs.ut.ee/courses/index/2022/spring
@@ -14,7 +14,7 @@
 (function() {
     'use strict';
 
-    var courseNames = ["Automaadid, keeled ja translaatorid", "Andmeturve", "Süsteemihaldus", "Objektorienteeritud programmeerimine", "Tarkvara testimine", "Inimise ja arvuti interaktsioon"];
+    var courseNames = ["Automaadid, keeled ja translaatorid", "Andmeturve", "S\u00fcsteemihaldus", "Objektorienteeritud programmeerimine", "Tarkvara testimine", "Inimise ja arvuti interaktsioon"];
     console.log(courseNames);
 
     var contentElement = document.getElementsByClassName("content")[0];
