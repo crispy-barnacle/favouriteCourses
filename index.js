@@ -13,8 +13,9 @@
 
 (function() {
     'use strict';
-
-    var courseNames = ["Automaadid, keeled ja translaatorid", "Andmeturve", "S\u00fcsteemihaldus", "Objektorienteeritud programmeerimine", "Tarkvara testimine", "Inimise ja arvuti interaktsioon"];
+    
+    // NB! Use javascript source code when using letters with diacritics or Cyrillic letters, e.g.: \u00FC
+    var courseNames = ["Eestikeelne kommunikatsioon arvutiteaduses", "Sissejuhatus andmeteadusesse", "Praktika informaatikas", "Tehisintellekt", "Programmeerimine"];
     console.log(courseNames);
 
     var contentElement = document.getElementsByClassName("content")[0];
