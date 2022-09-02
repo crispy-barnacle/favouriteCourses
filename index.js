@@ -25,6 +25,7 @@
     for (var course of contentElement.getElementsByClassName("course-list")[0].children) {
         var courseCode = course.getElementsByClassName("course-code")[0].innerText;
         var courseName = course.innerText.replace(courseCode + "\n", "");
+        console.log(courseName);
         if (courseNames.includes(courseName)) {
             courseListToAdd.append(course);
         }
