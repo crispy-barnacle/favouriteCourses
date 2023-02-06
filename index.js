@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Favourite courses
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  try to take over the world!
 // @author       Me
 // @match        https://courses.cs.ut.ee/courses/index/2022/fall
@@ -15,7 +15,10 @@
     'use strict';
 
     // NB! Use javascript source code when using letters with diacritics or Cyrillic letters, e.g.: \u00FC
-    let courseNames = ["Eestikeelne kommunikatsioon arvutiteaduses", "Sissejuhatus andmeteadusesse", "Praktika informaatikas", "Tehisintellekt", "Programmeerimine"];
+    // Semester 5
+    // let courseNames = ["Eestikeelne kommunikatsioon arvutiteaduses", "Sissejuhatus andmeteadusesse", "Praktika informaatikas", "Tehisintellekt", "Programmeerimine"];
+    // Semester 6
+    let courseNames = ["Objektorienteeritud programmeerimine"];
     console.log(courseNames);
 
     let contentElement = document.getElementsByClassName("content")[0];
