@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Favourite courses
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  try to take over the world!
 // @author       Me
-// @match        https://courses.cs.ut.ee/courses/index/2022/fall
+// @match        https://courses.cs.ut.ee/courses/index/2023/spring
 // @match        https://courses.cs.ut.ee/courses
 // @match        https://courses.cs.ut.ee
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
