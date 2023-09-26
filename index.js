@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Favourite courses
 // @namespace    http://tampermonkey.net/
-// @version      0.8
+// @version      0.9
 // @description  try to take over the world!
 // @author       Me
 // @match        https://courses.cs.ut.ee/courses/index/2023/spring
