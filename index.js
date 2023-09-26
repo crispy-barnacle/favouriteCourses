@@ -14,11 +14,11 @@
 (function() {
     'use strict';
 
-    // NB! Use javascript source code when using letters with diacritics or Cyrillic letters, e.g.: \u00FC
-    // Semester 5
+    // NB! Use javascript source code when using letters with diacritics or Cyrillic letters, e.g.: \u00FC. Use this for example: https://checkserp.com/encode/utf8/
+    // BSc, semester 5
     // let courseNames = ["Eestikeelne kommunikatsioon arvutiteaduses", "Sissejuhatus andmeteadusesse", "Praktika informaatikas", "Tehisintellekt", "Programmeerimine"];
-    // Semester 6
-    let courseNames = ["Objektorienteeritud programmeerimine"];
+    // MSc, semester 1
+    let courseNames = ["V\u00e4le tarkvaraarendus", "S\u00fcsteemide modelleerimine"];
     console.log(courseNames);
 
     let contentElement = document.getElementsByClassName("content")[0];
