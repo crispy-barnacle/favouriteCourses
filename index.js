@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Favourite courses
 // @namespace    http://tampermonkey.net/
-// @version      0.9
+// @version      0.10
 // @description  try to take over the world!
 // @author       Me
-// @match        https://courses.cs.ut.ee/courses/index/2023/spring
+// @match        https://courses.cs.ut.ee/courses/index/2024/spring
 // @match        https://courses.cs.ut.ee/courses
 // @match        https://courses.cs.ut.ee
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
@@ -18,7 +18,7 @@
     // BSc, semester 5
     // let courseNames = ["Eestikeelne kommunikatsioon arvutiteaduses", "Sissejuhatus andmeteadusesse", "Praktika informaatikas", "Tehisintellekt", "Programmeerimine"];
     // MSc, semester 1
-    let courseNames = ["V\u00e4le tarkvaraarendus", "S\u00fcsteemide modelleerimine"];
+    let courseNames = ["Cloud Computing", "Object-oriented Programming", "Enterprise System Integration", "Software Product Management", "Seminar on Enterprise Software", "Business Process Management"];
     console.log(courseNames);
 
     let contentElement = document.getElementsByClassName("content")[0];
